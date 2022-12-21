@@ -35,7 +35,7 @@ if (process.env.NODE_ENV === "production") {
       origin: [
         "http://nodebirdAnna.com",
         "http://localhost:3060",
-        "http://43.200.171.96",
+        "http://54.180.149.255",
       ],
       credentials: true,
     })
