@@ -32,7 +32,11 @@ if (process.env.NODE_ENV === "production") {
   app.use(helmet({ contentSecurityPolicy: false }));
   app.use(
     cors({
-      origin: ["http://nodebirdAnna.com", "http://localhost:3060"],
+      origin: [
+        "http://nodebirdAnna.com",
+        "http://localhost:3060",
+        "http://43.200.171.96",
+      ],
       credentials: true,
     })
   );
