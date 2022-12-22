@@ -33,7 +33,7 @@ if (process.env.NODE_ENV === "production") {
   app.use(
     cors({
       origin: [
-        "http://nodebirdAnna.com",
+        "http://nodebirdanna.com",
         "http://localhost:3060",
         "http://13.209.75.138",
       ],
@@ -61,7 +61,7 @@ app.use(
     cookie: {
       httpOnly: true,
       secure: false,
-      domain: process.env.NODE_ENV === "production" && ".nodebirdAnna.com",
+      domain: process.env.NODE_ENV === "production" && ".nodebirdanna.com",
     },
   })
 );
